@@ -1,6 +1,7 @@
 #series {
     background-color: $dark_bg_color;
     color: $light_color;
+    padding-bottom: 50px;
     .comic-cont {
         display: flex;
         flex-wrap: wrap;
@@ -32,4 +33,44 @@
     transform: translateY(-50%);
     font-size: 20px;
     padding: 10px 30px;
+}
+
+.load {
+    display: flex;
+    justify-content: center;
+
+    a {
+        color: $light_color;
+    }
+
+    h3 {
+        background-color: $main_color;
+        padding: 10px 50px;
+    }
+}
+
+#merch {
+    background-color: $main_color;
+    padding: 50px 0;
+
+    ul {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+
+    img {
+        width: 55px;
+        height: 55px;
+        margin-right: 10px;
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $light_color;
+        font-size: 14px;
+        font-family: $condensed;
+    }
 }

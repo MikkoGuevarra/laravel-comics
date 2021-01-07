@@ -88,6 +88,7 @@ header .bottom-header .navbar li a.active, header .bottom-header .navbar li a:ho
 #series {
   background-color: #272727;
   color: #FFFFFF;
+  padding-bottom: 50px;
 }
 #series .comic-cont {
   display: flex;
@@ -118,4 +119,39 @@ header .bottom-header .navbar li a.active, header .bottom-header .navbar li a:ho
   transform: translateY(-50%);
   font-size: 20px;
   padding: 10px 30px;
+}
+
+.load {
+  display: flex;
+  justify-content: center;
+}
+.load a {
+  color: #FFFFFF;
+}
+.load h3 {
+  background-color: #0282F9;
+  padding: 10px 50px;
+}
+
+#merch {
+  background-color: #0282F9;
+  padding: 50px 0;
+}
+#merch ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#merch img {
+  width: 55px;
+  height: 55px;
+  margin-right: 10px;
+}
+#merch a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: "Open Sans Condensed", sans-serif;
 }
