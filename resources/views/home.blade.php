@@ -1,8 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
+    @include('partials.jumbo')
 <section id="series">
     <div class="container">
+        <div class="section-title">
+            <h2 class="uppercase">Current Series</h2>
+        </div>
         <div class="comic-cont">
             @foreach ($series as $item)
                 <div class="comic">
@@ -19,3 +23,5 @@
 
 </section>
 @endsection
+
+@section('page-title', 'Homepage - Laravel DC Comics')

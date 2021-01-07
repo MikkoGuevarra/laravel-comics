@@ -1,0 +1,68 @@
+header {
+    li {
+        display: inline-block;
+    }
+
+    .top-header {
+        background-color: $main_color;
+
+        ul {
+            text-align: right;
+
+            li {
+                &:last-child {
+                    margin-left: 60px;
+                }
+
+                a {
+                    color: $light_color;
+                    display: inline-block;
+                    font-size: 12px;
+                    font-weight: 600;
+                    padding: 5px;
+                }
+            }
+        }
+
+    }
+
+    .bottom-header {
+        border-bottom: 1px solid #ebeebeb;
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .logo {
+                height: 80px;
+
+                a {
+                    display: inline-block;
+                    height: 100%;
+                    img{
+                        height: 100%;
+                    }
+                }
+
+            }
+            li {
+                padding: 0 15px;
+                a {
+                    display: inline-block;
+                    font-family: $condensed;
+                    color: $dark_bg_color;
+                    line-height: 113px;
+
+                    &.active, &:hover {
+                        color: $main_color;
+                        border-bottom: 5px solid $main_color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.jumbotron {
+    background-image: url('/images/jumbotron.jpg');
+    padding: 200px 0;
+}

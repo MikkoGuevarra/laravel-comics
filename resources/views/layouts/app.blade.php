@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>@yield('page-title', 'Laravel Dc Comics')</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -12,6 +12,9 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
+
+        <!-- favicon -->
+        <link rel="icon" href="{{asset('images/favicon.icon')}}">
     </head>
     <body>
         <header>

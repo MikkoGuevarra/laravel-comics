@@ -8,6 +8,7 @@
 
         .comic {
             flex-basis: $comic_thumb_size;
+            margin-bottom: 30px;
 
             .comic-img {
                 width: $comic_thumb_size;
@@ -22,5 +23,13 @@
             }
         }
     }
+}
 
+.section-title {
+    background-color: $main_color;
+    color: $light_color;
+    display: inline-block;
+    transform: translateY(-50%);
+    font-size: 20px;
+    padding: 10px 30px;
 }
