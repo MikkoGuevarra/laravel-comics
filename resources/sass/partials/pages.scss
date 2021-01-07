@@ -1,0 +1,26 @@
+#series {
+    background-color: $dark_bg_color;
+    color: $light_color;
+    .comic-cont {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .comic {
+            flex-basis: $comic_thumb_size;
+
+            .comic-img {
+                width: $comic_thumb_size;
+                height: $comic_thumb_size;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: top;
+                }
+            }
+        }
+    }
+
+}
