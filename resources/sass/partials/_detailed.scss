@@ -1,0 +1,9 @@
+.thumb-cont {
+    height: 70px;
+    background-color: $main_color;
+    position: relative;
+    img {
+        position: absolute;
+        bottom: 10px;
+    }
+}

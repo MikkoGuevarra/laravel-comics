@@ -21,7 +21,7 @@
             @include('partials.header')
         </header>
         <section>
-        @yield('content')
+            @yield('content')
         </section>
         <footer>
             @include('partials.footer')
