@@ -88,6 +88,8 @@ header .bottom-header .navbar li a.active, header .bottom-header .navbar li a:ho
 footer {
   background-image: url("/images/footer-bg.jpg");
   color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 footer .footer-cont {
   display: flex;
@@ -160,8 +162,7 @@ footer .footer-cont .left-foot, footer .footer-cont .right-foot {
   align-items: center;
 }
 #merch img {
-  width: 55px;
-  height: 55px;
+  width: 40px;
   margin-right: 10px;
 }
 #merch a {
