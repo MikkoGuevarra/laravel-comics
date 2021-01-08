@@ -1,0 +1,18 @@
+footer {
+    background-image: url("/images/footer-bg.jpg");
+    color: $light_color;
+
+    .footer-cont {
+        display: flex;
+
+        .left-foot, .right-foot {
+            width: 50%;
+            padding: 200px;
+        }
+    }
+}
+
+.second-bg {
+    background-image: url("/images/dc-logo-bg.png");
+    background-repeat: no-repeat;
+}

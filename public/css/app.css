@@ -85,6 +85,23 @@ header .bottom-header .navbar li a.active, header .bottom-header .navbar li a:ho
   padding: 200px 0;
 }
 
+footer {
+  background-image: url("/images/footer-bg.jpg");
+  color: #FFFFFF;
+}
+footer .footer-cont {
+  display: flex;
+}
+footer .footer-cont .left-foot, footer .footer-cont .right-foot {
+  width: 50%;
+  padding: 200px;
+}
+
+.second-bg {
+  background-image: url("/images/dc-logo-bg.png");
+  background-repeat: no-repeat;
+}
+
 #series {
   background-color: #272727;
   color: #FFFFFF;
